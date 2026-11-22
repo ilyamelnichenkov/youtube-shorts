@@ -1,0 +1,13 @@
+# Top-level Python packages the kit imports or calls (versions tested on the original machine in Nov 2026, Python 3.13).
+# engine: numpy, pillow | sound mix: scipy, soundfile, pyloudnorm, faster-whisper | voice: kokoro-onnx, onnxruntime | footage: yt-dlp, certifi
+# requirements.lock.txt pins these AND all their dependencies; setup.sh uses the lock file and falls back to this one.
+numpy==2.5.4
+pillow==13.0.0
+scipy==1.18.1
+soundfile==0.14.0
+pyloudnorm==0.2.0
+faster-whisper==1.2.1
+kokoro-onnx==0.6.1
+onnxruntime==1.31.1
+yt-dlp
+certifi

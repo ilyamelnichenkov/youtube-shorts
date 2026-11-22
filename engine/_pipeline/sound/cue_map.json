@@ -1,0 +1,304 @@
+{
+ "_doc": "cue kind -> sound. 'layers' are played together at the cue time. sample = file in sfx/ (no .wav); gain_db = level of the sample peak in dBFS BEFORE the final loudness gain (voice peak is -3); align = which point of the sample lands on the cue time (onset | peak | end); pitch = semitones; pan -1..1; pan_alt = alternate pan left/right by this amount per repeated cue; ladder_st = extra semitones per consecutive cue of the same kind closer than 0.6 s (star ticks climb); fit_dur = stretch the sample to the cue's 'dur' field if present; dt = layer delay in s; duck = false keeps the sound out of the speech ducking (default true). A cue kind missing from this table is NOT dropped silently: mix.py lists it under UNMAPPED in sound-report.txt.",
+ "kinds": {
+  "impact": {
+   "layers": [
+    {
+     "sample": "sub_hit",
+     "gain_db": -14
+    },
+    {
+     "sample": "impact",
+     "gain_db": -19
+    }
+   ]
+  },
+  "siren-swell": {
+   "layers": [
+    {
+     "sample": "siren_swell",
+     "gain_db": -27
+    }
+   ]
+  },
+  "marker-swipe": {
+   "layers": [
+    {
+     "sample": "marker_swipe",
+     "gain_db": -20
+    },
+    {
+     "sample": "paper_slide",
+     "gain_db": -34,
+     "dt": 0.02
+    }
+   ]
+  },
+  "whoosh-soft": {
+   "layers": [
+    {
+     "sample": "whoosh_soft",
+     "gain_db": -26,
+     "align": "peak"
+    }
+   ],
+   "pan_alt": 0.35
+  },
+  "shutter": {
+   "layers": [
+    {
+     "sample": "shutter",
+     "gain_db": -18
+    }
+   ]
+  },
+  "shutter-clack": {
+   "layers": [
+    {
+     "sample": "shutter_clack",
+     "gain_db": -15
+    }
+   ]
+  },
+  "alarm-blip": {
+   "layers": [
+    {
+     "sample": "alarm_blip",
+     "gain_db": -25
+    }
+   ]
+  },
+  "outfit-pop": {
+   "layers": [
+    {
+     "sample": "pop",
+     "gain_db": -21
+    },
+    {
+     "sample": "paper_flip",
+     "gain_db": -30
+    }
+   ]
+  },
+  "star-tick": {
+   "layers": [
+    {
+     "sample": "star_tick",
+     "gain_db": -21
+    }
+   ],
+   "ladder_st": 2
+  },
+  "star-slam": {
+   "layers": [
+    {
+     "sample": "sub_hit",
+     "gain_db": -13
+    },
+    {
+     "sample": "star_slam",
+     "gain_db": -19
+    }
+   ]
+  },
+  "final-hit": {
+   "layers": [
+    {
+     "sample": "final_hit",
+     "gain_db": -12
+    }
+   ]
+  },
+  "stamp": {
+   "layers": [
+    {
+     "sample": "stamp",
+     "gain_db": -17
+    }
+   ]
+  },
+  "circle-draw": {
+   "layers": [
+    {
+     "sample": "marker_scratch",
+     "gain_db": -27
+    }
+   ],
+   "fit_dur": true
+  },
+  "tab-type": {
+   "layers": [
+    {
+     "sample": "type_burst",
+     "gain_db": -29
+    }
+   ]
+  },
+  "tab-slide": {
+   "layers": [
+    {
+     "sample": "tab_slide",
+     "gain_db": -25
+    }
+   ]
+  },
+  "paper-slide": {
+   "layers": [
+    {
+     "sample": "paper_slide",
+     "gain_db": -26
+    }
+   ]
+  },
+  "paper-flip": {
+   "layers": [
+    {
+     "sample": "paper_flip",
+     "gain_db": -25
+    }
+   ]
+  },
+  "typewriter-tick": {
+   "layers": [
+    {
+     "sample": "type_tick",
+     "gain_db": -27
+    }
+   ]
+  },
+  "sub-hit": {
+   "layers": [
+    {
+     "sample": "sub_hit",
+     "gain_db": -17
+    }
+   ]
+  },
+  "pop": {
+   "layers": [
+    {
+     "sample": "pop",
+     "gain_db": -21
+    }
+   ]
+  },
+  "whoosh": {
+   "layers": [
+    {
+     "sample": "whoosh",
+     "gain_db": -24,
+     "align": "peak"
+    }
+   ]
+  },
+  "whoosh-zoom": {
+   "layers": [
+    {
+     "sample": "whoosh_zoom",
+     "gain_db": -24,
+     "align": "peak"
+    }
+   ]
+  },
+  "flash-hit": {
+   "layers": [
+    {
+     "sample": "flash_hit",
+     "gain_db": -18
+    }
+   ]
+  },
+  "panel-slam": {
+   "layers": [
+    {
+     "sample": "stamp",
+     "gain_db": -16
+    }
+   ]
+  },
+  "paper-swipe": {
+   "layers": [
+    {
+     "sample": "paper_slide",
+     "gain_db": -24,
+     "align": "peak"
+    }
+   ]
+  },
+  "shimmer-swell": {
+   "layers": [
+    {
+     "sample": "shimmer_swell",
+     "gain_db": -30,
+     "align": "peak"
+    }
+   ]
+  },
+  "glitch-tick": {
+   "layers": [
+    {
+     "sample": "glitch_tick",
+     "gain_db": -26
+    }
+   ]
+  },
+  "case-card": {
+   "layers": [
+    {
+     "sample": "shutter_clack",
+     "gain_db": -15
+    },
+    {
+     "sample": "sub_hit",
+     "gain_db": -20
+    }
+   ],
+   "_note": "long-form: CASE NN / 10 card slams in"
+  },
+  "verdict-slam": {
+   "layers": [
+    {
+     "sample": "stamp",
+     "gain_db": -13
+    },
+    {
+     "sample": "sub_hit",
+     "gain_db": -16
+    }
+   ],
+   "_note": "long-form: verdict stamp, heavier than a plain stamp"
+  },
+  "title-slam": {
+   "layers": [
+    {
+     "sample": "sub_hit",
+     "gain_db": -14
+    },
+    {
+     "sample": "impact",
+     "gain_db": -19
+    }
+   ],
+   "_note": "long-form: cold-open title lands (same as impact)"
+  },
+  "end-card": {
+   "layers": [
+    {
+     "sample": "paper_slide",
+     "gain_db": -22
+    }
+   ],
+   "_note": "long-form: end card slides in"
+  }
+ },
+ "derive": {
+  "_doc": "Cues the editor does not list but the picture contains. Overlay elements (<silent>.mp4.overlay.json) trigger on first appearance (absent for 10 frames before); skipped if the cue file already has the same kind within 0.3 s. edl_circles: hero/hook circles from edl.json (t0 = start of the hook window, dur = last path time).",
+  "overlay": {
+   "exhibit-label": "stamp",
+   "stars-stamp": "stamp",
+   "hero-tab": "tab-slide",
+   "file-tab": "tab-type"
+  },
+  "edl_circles": "circle-draw"
+ }
+}

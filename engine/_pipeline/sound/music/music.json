@@ -1,0 +1,8 @@
+{
+  "_doc": "Rotation order = list order; mix.py picks index (folder number - 1) % 3 or --music <key>. start_s = where in the file the Short starts (beat-aligned).",
+  "tracks": [
+    {"key": "trip-hop", "file": "trip_hop_90bpm_hardcore_scm.mp3", "title": "2023-03-10 - 069 - 90 bpm - trip hop", "author": "hardcore scm", "url": "https://freesound.org/people/hardcore%20scm/sounds/729679/", "license": "CC0 1.0", "bpm": 90, "start_s": 0.0, "mood": "dry trip-hop drum loop, deep bass, cool and driving"},
+    {"key": "the-chase", "file": "the_chase_inavision.mp3", "title": "The Chase.aif", "author": "InAvision", "url": "https://freesound.org/people/Inavision/sounds/479260/", "license": "CC0 1.0", "bpm": 120, "start_s": 0.65, "mood": "dark sub pad with fast pulsing arpeggio, tense chase/crime-drama"},
+    {"key": "trap-suspense", "file": "suspense_tension_trap_loop_user391915396.mp3", "title": "Suspense/Tension trap loop", "author": "User391915396", "url": "https://freesound.org/people/User391915396/sounds/396765/", "license": "CC0 1.0", "bpm": 86, "start_s": 0.0, "mood": "slow minimal trap bass, suspense, night-drive heist"}
+  ]
+}

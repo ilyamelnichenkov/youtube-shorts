@@ -1,0 +1,16 @@
+{
+  "name": "shorts-studio-kit",
+  "owner": {
+    "name": "Shorts Studio kit"
+  },
+  "description": "Tools for making short-form videos.",
+  "plugins": [
+    {
+      "name": "shorts-studio",
+      "source": "./",
+      "description": "Short-form video workflow: script and voice, edit pipeline with checks, sound mix, upload packaging.",
+      "category": "productivity",
+      "keywords": ["youtube", "shorts", "video", "pipeline"]
+    }
+  ]
+}

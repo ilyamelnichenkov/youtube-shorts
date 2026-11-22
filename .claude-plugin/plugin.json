@@ -1,0 +1,19 @@
+{
+  "name": "shorts-studio",
+  "version": "0.1.0",
+  "description": "Topic-neutral workflow and engine for vertical short-form videos (YouTube Shorts, Reels, TikTok): script and voice, clip-based edit pipeline with automatic checks, sound mix, packaging for upload. Channel rules live in a CHANNEL.md profile.",
+  "author": {
+    "name": "Shorts Studio kit"
+  },
+  "keywords": [
+    "youtube",
+    "shorts",
+    "video",
+    "gaming",
+    "pipeline",
+    "ffmpeg"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ilyamelnichenkov/youtube-shorts",
+  "repository": "https://github.com/ilyamelnichenkov/youtube-shorts"
+}

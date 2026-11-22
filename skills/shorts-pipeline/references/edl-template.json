@@ -1,0 +1,326 @@
+{
+ "title": "Example short (structure only: replace every value)",
+ "theme": "case-file",
+ "footage_root": "..",
+ "vo": "vo/vo.wav",
+ "tail": 0.6,
+ "out_silent": "short-{theme}-silent.mp4",
+ "out_vo": "short-{theme}-vo.mp4",
+ "sfx_out": "sfx-cues-{theme}.json",
+ "target_mb": 50,
+ "clips": [
+  {
+   "id": "c01",
+   "note": "hook: a striking moving shot, plate on from frame 0",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 15.02,
+   "end": 2.95,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.08,
+    1.2
+   ],
+   "cx": [
+    800,
+    780
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "speed": 0.6,
+   "decode_fps": "source",
+   "move_ease": "linear"
+  },
+  {
+   "id": "c02",
+   "note": "shot 02: what it shows and which word it follows",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 17.95,
+   "end": 4.95,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.08,
+    1.2
+   ],
+   "cx": [
+    920,
+    980
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "speed": 0.6,
+   "decode_fps": "source",
+   "move_ease": "linear",
+   "transition": {
+    "role": "hook"
+   }
+  },
+  {
+   "id": "c03",
+   "note": "shot 03: what it shows and which word it follows",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 38.0,
+   "end": 7.15,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.05,
+    1.22
+   ],
+   "cx": [
+    1170,
+    950
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "decode_fps": "source",
+   "move_ease": "linear",
+   "float": 0
+  },
+  {
+   "id": "c04",
+   "note": "shot 04: what it shows and which word it follows",
+   "src": "_footage/topic/source-b.mp4",
+   "in": 77.5,
+   "end": 8.55,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    0.66,
+    0.82
+   ],
+   "cx": [
+    1790,
+    1910
+   ],
+   "cy": 1000,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "speed": 0.9,
+   "move_ease": "linear",
+   "transition": {
+    "role": "triple"
+   }
+  },
+  {
+   "id": "c05",
+   "note": "shot 05: what it shows and which word it follows",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 30.4,
+   "end": 9.75,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.06,
+    1.22
+   ],
+   "cx": [
+    1000,
+    1140
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "decode_fps": "source",
+   "move_ease": "linear"
+  },
+  {
+   "id": "c06",
+   "note": "hero: the key detail while the keyword is spoken; the circle goes here",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 43.39,
+   "end": 11.55,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.05,
+    1.1
+   ],
+   "cx": [
+    1024,
+    1024
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "speed": 0.6,
+   "decode_fps": "source",
+   "move_ease": "linear",
+   "transition": {
+    "role": "reveal"
+   },
+   "float": {
+    "amp": 22,
+    "period": 1.7
+   }
+  },
+  {
+   "id": "c07",
+   "note": "shot 07: what it shows and which word it follows",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 48.76,
+   "end": 12.85,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.05,
+    1.24
+   ],
+   "cx": [
+    900,
+    1150
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "speed": 0.8,
+   "decode_fps": "source",
+   "move_ease": "linear",
+   "float": 0
+  },
+  {
+   "id": "c08",
+   "note": "shot 08: what it shows and which word it follows",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 31.9,
+   "end": 14.95,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.1,
+    1.2
+   ],
+   "cx": [
+    1000,
+    1060
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "decode_fps": "source",
+   "move_ease": "linear",
+   "transition": {
+    "role": "triple"
+   },
+   "speed": 0.7
+  },
+  {
+   "id": "c09",
+   "note": "shot 09: what it shows and which word it follows",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 34.0,
+   "end": 17.0,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.06,
+    1.22
+   ],
+   "cx": [
+    940,
+    1080
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "speed": 0.7,
+   "decode_fps": "source",
+   "move_ease": "linear"
+  },
+  {
+   "id": "c10",
+   "note": "last shot: cuts cleanly back into the first frame (loop)",
+   "src": "_footage/topic/source-a.mp4",
+   "in": 13.4,
+   "layout": "window",
+   "aspect": "3:4",
+   "zoom": [
+    1.06,
+    1.18
+   ],
+   "cx": [
+    800,
+    900
+   ],
+   "cy": 576,
+   "exhibit": "SUBJECT · FOOTAGE",
+   "speed": 0.4,
+   "decode_fps": "source",
+   "blend_frames": true,
+   "move_ease": "linear"
+  }
+ ],
+ "captions": {
+  "words": "vo/words-captions.json",
+  "onset_fix": true,
+  "break_before": [
+   0,
+   3,
+   6,
+   10,
+   13,
+   16,
+   19,
+   21,
+   23,
+   25,
+   28,
+   31,
+   35,
+   42,
+   44,
+   48,
+   50,
+   53,
+   56,
+   59,
+   63,
+   66
+  ]
+ },
+ "hook": {
+  "end": 2.9,
+  "y": 1170,
+  "lines": [
+   "HOOK LINE ONE",
+   "HOOK LINE TWO"
+  ],
+  "file": "SERIES 01",
+  "label": "SUBJECT"
+ },
+ "cover": {
+  "src": "_footage/topic/source-a.mp4",
+  "t": 3.0,
+  "cw": 1215,
+  "cx": 1920,
+  "cy": 1080,
+  "upscale": true,
+  "headline": [
+   "HOOK LINE ONE",
+   "HOOK LINE TWO"
+  ],
+  "game": "SUBJECT",
+  "game_size": 96,
+  "file": "SERIES 01",
+  "label": "SUBJECT",
+  "circle": [
+   543,
+   1005,
+   235,
+   80
+  ],
+  "tab_y": 330,
+  "stamp_y": 1440
+ },
+ "credit": {
+  "text": "Clips: <creators you used>"
+ },
+ "hero": {
+  "t": 10.0,
+  "end": 11.3,
+  "clip": "c06",
+  "detail_src": [
+   850,
+   555,
+   1200,
+   745
+  ],
+  "label": "KEY DETAIL",
+  "word": "keyword"
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "shorts-studio",
+  "version": "0.1.0",
+  "description": "Topic-neutral workflow and engine for vertical short-form videos: script and voice, edit pipeline with checks, sound mix, packaging. Channel rules live in a CHANNEL.md profile.",
+  "author": {
+    "name": "Shorts Studio kit"
+  },
+  "keywords": [
+    "youtube",
+    "shorts",
+    "video",
+    "gaming",
+    "pipeline",
+    "ffmpeg"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Shorts Studio",
+    "shortDescription": "Make, check, mix and package vertical short videos",
+    "longDescription": "Script and voice workflow, a clip-based edit pipeline (edl.json, build, check, sound mix) and upload packaging for short-form video channels. Channel rules live in a CHANNEL.md profile. Run scripts/setup.sh once on a new computer.",
+    "developerName": "Shorts Studio kit",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ]
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ilyamelnichenkov/youtube-shorts",
+  "repository": "https://github.com/ilyamelnichenkov/youtube-shorts"
+}
