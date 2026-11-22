@@ -7,4 +7,4 @@ This is a plugin kit, not a video project. Do not render videos here. To make vi
   `CHANNEL.md` of the project holds everything specific to one channel).
 - Engine: `engine/_pipeline` (Python + ffmpeg), tools in `tools/`, setup in `scripts/setup.sh`, check in `scripts/doctor.sh`.
 - When you change the engine, keep it topic-neutral and re-run an A/B: render the same stills with the old and new engine and
-  compare pixels. Update `README.md` (Russian) and the skill that describes the behaviour.
+  compare pixels. Update `README.md` and `README.ru.md` (the same content in two languages) and the skill that describes the behaviour.
